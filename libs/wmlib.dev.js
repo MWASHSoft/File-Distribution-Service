@@ -100,7 +100,7 @@ function _wsgetItem(wordsheet,keyName,lineSpliter,keySpliter) {
  _wm.donum = 0;
  while (_wm.donum < _wm.actnum) {
   if (_wm.wordsheet[_wm.donum].search(keyName+keySpliter) > -1) {
-   _wm.return = _wm.wordsheet[_wm.donum].split("keySpliter");}
+   _wm.return = _wm.wordsheet[_wm.donum].split(keySpliter)[1];}
  _wm.donum ++;}
  return (_wm.return);
 }
