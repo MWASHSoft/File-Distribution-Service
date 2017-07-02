@@ -95,6 +95,7 @@ if (xmlhttp.readyState==4) {// 4 = "loaded"
 
 //Wordsheet
 function _wsgetItem(wordsheet,keyName,lineSpliter,keySpliter) {
+ _wm.return = "";
  _wm.wordsheet = wordsheet.split(lineSpliter);
  _wm.actnum = _wm.wordsheet.length;
  _wm.donum = 0;
