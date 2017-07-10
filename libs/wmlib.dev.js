@@ -106,3 +106,5 @@ function _wsgetItem(wordsheet,keyName,lineSpliter,keySpliter) {
  _wm.donum ++;}
  return (_wm.return);
 }
+
+console.warn("Wmlib is loaded. Version " + _wm.version + ".");
