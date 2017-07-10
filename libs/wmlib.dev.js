@@ -1,6 +1,7 @@
 ﻿// MWASH Webmaker Library v2
-function _wm() {
-// A storage to store data.}
+function _wm() {}
+// A storage to store data.
+_wm.version = "DR 11";
 
 // Write debug message to the console.
 function writeDebug(Message) {
@@ -91,7 +92,7 @@ if (xmlhttp.readyState==4) {// 4 = "loaded"
  else {
   console.warn("Failed to load document from [" + xmlhttp.requestURL +"]:\nRefused to response.");}
  }
-}}
+}
 
 //Wordsheet
 function _wsgetItem(wordsheet,keyName,lineSpliter,keySpliter) {
